@@ -1,0 +1,1 @@
+# shopee-checker-bot
