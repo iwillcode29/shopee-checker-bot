@@ -1,11 +1,11 @@
 import requests
 
-SHOP_ID = "12345678"  # รหัสร้าน Shopee
+SHOP_ID = "apple_flagshipstore"  # รหัสร้าน Shopee
 SEARCH_KEYWORD = "iphone 17"
 
 # 🔧 ตั้งค่าของ Telegram Bot
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-CHAT_ID = "YOUR_CHAT_ID"
+BOT_TOKEN = "8438307071:AAEPJsqfj259KcFQpmYd3n0sRxrs6iK2HEM"
+CHAT_ID = "1911426257"
 
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
